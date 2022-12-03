@@ -1,4 +1,4 @@
-package Magazyn;
+package Warsztat;
 
 public class Main {
 }

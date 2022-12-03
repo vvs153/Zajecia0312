@@ -1,4 +1,4 @@
-package Magazyn.Model;
+package Warsztat.Model;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.Metadata;
