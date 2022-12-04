@@ -25,7 +25,7 @@ public class DeleteVehicle implements Command {
         if(dataAccessObject.delete(Vehicle.class,vehicleId)){
             System.out.println("Usunieto pojazd");
         } else {
-            System.out.println("Nie znalezniono pojazdu");
+            System.err.println("Nie znalezniono pojazdu");
         }
 }
 }

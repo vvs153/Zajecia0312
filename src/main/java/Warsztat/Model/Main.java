@@ -20,7 +20,10 @@ public class Main {
                 new FindService(),
                 new DeleteVehicle(),
                 new DeleteMechanic(),
-                new DeleteService()
+                new DeleteService(),
+                new UpdateMechanic(),
+                new UpdateVehicle(),
+                new EndService()
 
 
 

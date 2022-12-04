@@ -25,7 +25,7 @@ public class DeleteMechanic implements Command{
         if(dataAccessObject.delete(Mechanic.class,mechanikId)){
             System.out.println("Usunieto mechanika");
         } else {
-            System.out.println("Nie znalezniono maechanika");
+            System.err.println("Nie znalezniono maechanika");
         }
     }
 }

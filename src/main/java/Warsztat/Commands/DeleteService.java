@@ -22,7 +22,7 @@ public class DeleteService implements Command{
         if(dataAccessObject.delete(Service.class,serviceId)){
             System.out.println("Usunieto serwis");
         } else {
-            System.out.println("Nie znalezniono servicu");
+            System.err.println("Nie znalezniono servicu");
         }
     }
 }
